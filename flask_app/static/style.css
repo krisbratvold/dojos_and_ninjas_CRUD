@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    width:75%;
+}
+.below{
+    border: 2px solid black;
+    padding-left: 5px;
+    height: fit-content;
+    width: 300px;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+button{
+    margin-top: 10px;
+    background-color: rgb(58, 58, 143);
+    color: white;
+}
+form input{
+    margin-top: 10px;
+}
